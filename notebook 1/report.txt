@@ -1,0 +1,26 @@
+TensorFlow 2.0 Upgrade Script
+-----------------------------
+Converted 1 files
+Detected 0 issues that require attention
+--------------------------------------------------------------------------------
+================================================================================
+Detailed log follows:
+
+================================================================================
+--------------------------------------------------------------------------------
+Processing file 'C:\\Users\\greyn\\OneDrive\\Documents\\GitHub\\Object-Detection_Assignment_4\\notebook_1\\app_v2.ipynb'
+ outputting to 'C:\\Users\\greyn\\OneDrive\\Documents\\GitHub\\Object-Detection_Assignment_4\\notebook_1\\app_v2.ipynb'
+--------------------------------------------------------------------------------
+
+165:11: INFO: Added keywords to args of function 'tf.reduce_mean'
+165:26: INFO: Changing labels arg of tf.nn.softmax_cross_entropy_with_logits to tf.stop_gradient(labels). Please check this transformation.
+
+206:4: INFO: Renamed 'tf.set_random_seed' to 'tf.compat.v1.set_random_seed'
+234:16: INFO: Renamed 'tf.train.AdamOptimizer' to 'tf.compat.v1.train.AdamOptimizer'
+238:11: INFO: Renamed 'tf.global_variables_initializer' to 'tf.compat.v1.global_variables_initializer'
+241:9: INFO: Renamed 'tf.Session' to 'tf.compat.v1.Session'
+282:21: INFO: Added keywords to args of function 'tf.argmax'
+283:50: INFO: Added keywords to args of function 'tf.argmax'
+286:19: INFO: Added keywords to args of function 'tf.reduce_mean'
+--------------------------------------------------------------------------------
+
